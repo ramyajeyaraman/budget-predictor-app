@@ -1,0 +1,137 @@
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+body {
+  min-width: 250px;
+}
+
+.login-container {
+	border: 3px solid #f1f1f1;
+}
+
+.login-input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-submit:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.login {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+}
+
+/* Include the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* Remove margins and padding from the list */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ddd;
+}
+
+/* Style the close button */
+.expense-close,.income-close {
+  position: relative;
+  left: 20%;
+  top: 4%;
+  padding: 1px 16px 2px 16px;
+  font-size: 22px;
+  cursor:pointer;
+}
+
+/* Style the + button */
+.expense-add,.income-add {
+  position: relative;
+  left: 25%;
+  top: 4%;
+  padding: 1px 16px 2px 16px;
+  font-size: 35px;
+  cursor:pointer;
+}
+
+/* Style the input */
+input {
+  border: none;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+	width:17%;
+}
